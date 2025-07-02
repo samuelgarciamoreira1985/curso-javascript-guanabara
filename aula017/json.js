@@ -1,18 +1,15 @@
-const pessoa = {
-    nome: 'samuel',
-    idade: '40',
-    sexo: 'M',
-    profissao: 'front-end'
+const atualizar = () => {
+    
+    let txt = document.querySelector('#texto')
+    txt.innerHTML += 'azul'
 }
 
-// Conversao...
-let p = JSON.stringify([pessoa.sexo, pessoa.nome, pessoa.idade])
+atualizar()
 
-let txtTexto = document.getElementById('texto')
-let txtTexto2 = document.getElementById('textodois')
+/*function atualizar() {
 
-txtTexto.innerHTML = p
+    let txt = document.querySelector('#texto')
+    txt.innerHTML += 'azul'
+}
 
-let p2 = JSON.parse(p)
-
-console.log(pessoa)
+atualizar()*/
